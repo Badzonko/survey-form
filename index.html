@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body id="bodi">
+      <div class="container-fluid">
+          <div class="row">
+              <h1 class="col-sm-12 text-center" id="title">Survey Form
+            </h1>
+          </div>
+      </div><br>
+      <div class="container">
+        <div class="jumbotron">
+          <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8 text-center"><p id="description">Let us know how we can improve freeCodeCamp
+
+            </p></div>
+            <div class="col-sm-2"></div>
+          </div>
+          <div class="gridtime container-fluid text-center">
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                <label id="name-label">* Name:</label>   
+
+              </div>
+              <div class="col-sm-4">
+                <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name"required />
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+            <br/>
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                <label id="email-label">* Email:</label>   
+
+              </div>
+              <div class="col-sm-4">
+                <input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email"required />
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+            <br/>
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                <label id="number-label">* Age:</label>   
+
+              </div>
+              <div class="col-sm-4">
+                <input autofocus type="number" name="age" id="number" min="1" max="100" class="input-field" placeholder="Enter your age"required />
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                <label >* Which one describes the bes you current position?</label>   
+
+              </div>
+              <div class="col-sm-4">
+                <select type="number" name="age" id="dropdown" class="dropdown" min="1" max="100" placeholder="Enter your age">
+                  <option value="student"> Student</option>
+                  <option value="ftj"> full time job</option>
+                  <option value="ntw"> Not working</option>
+                  <option value="pfnts"> Prefer not to say</option>
+                  <option value="Other"> Other</option>
+                </select>
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+            <br/>
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                <label >Would you recomanded freeCodeCamp to a friend?</label>   
+
+              </div>
+              <div class="col-sm-4">
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="defaultChecked" name="radio1" >
+                  <label class="custom-control-label" for="defaultChecked">YES!</label>
+                </div><br>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="defaultChecked" name="radio2" >
+                  <label class="custom-control-label" for="defaultChecked">No!</label>
+                </div>
+
+                <br>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="defaultChecked" name="radio3" >
+                  <label class="custom-control-label" for="defaultChecked">Maybe?</label>
+                </div>
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+            <br>
+            
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                   <label>
+                     What should be improved in the future?
+                   </label>
+
+              </div>
+              <div class="col-sm-4">
+                <input class="form-check-input" type="checkbox" value="fe" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Front-end projects
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="be" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Back-end projects
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="fs" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Full-stack projects
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="dv" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Data Visualisation 
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="cl" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Challenges
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="anm" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Animations
+                </label>
+              
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                <label >Do you have any suggestion?</label>   
+
+              </div>
+              <div class="col-sm-4">
+                <textarea name="comment" type="text" id="comment" cols="30" rows="10" style="height:150px;width:300px;" placeholder="Enter you comment...."></textarea>
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+            <br>
+            <div class="text-center" >
+              <button class="btn btn-primary" id="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
